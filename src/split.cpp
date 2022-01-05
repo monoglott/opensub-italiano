@@ -7,10 +7,8 @@
 int main(int argc, char* argv[])
 {
     if (argc != 2) {
-        std::cout << "Usage: "
-                  << argv[0]
-                  << " <input file>\n";
-        exit(EXIT_SUCCESS);
+        std::cout << "Usage: " << argv[0] << " <input file>\n";
+        exit(EXIT_FAILURE);
     }
 
     std::string word;
